@@ -7,11 +7,11 @@ Because of the covid19 situation, im forced to work at home with 2 chiledren run
 This will effecte my profromance this week. 
 
 Mandag:
-How far you got with a solution: \n
-exc 1 completed, exc 2 not completed. exc 3 not started\n
-Where the solution to each exercise can be found in your commit:\n
-1 mandag (Folder)\n
-Which of the weekly learnings goals were covered by your solution:\n
+How far you got with a solution: "\n"
+exc 1 completed, exc 2 not completed. exc 3 not started \n
+Where the solution to each exercise can be found in your commit:
+1 mandag (Folder)
+Which of the weekly learnings goals were covered by your solution:
 
 
 Tirsdag

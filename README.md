@@ -40,7 +40,7 @@ Exercises Security: completed - last assignment (I)
 
 Where the solution to each exercise can be found in your commit: 
 
-3 Onsdags folder
+3 Onsdags folder, answers to assignment is located in the onsdags readme
 
 Which of the weekly learnings goals were covered by your solution:
 

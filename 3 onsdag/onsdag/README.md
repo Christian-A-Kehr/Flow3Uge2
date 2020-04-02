@@ -34,10 +34,13 @@ Before you start, make sure you understand topics like: 
 Answer these questions before you continue:
 
 	• Did this logout involve the server:
-	No
+		
+	No
 	
-• Is the token (if kept somewhere, still valid?)            
+	• Is the token (if kept somewhere, still valid?)            
 
-Until time period (30 min ) has passed  yes. 
+		Until time period (30 min ) has passed  yes. 
 
 	•       If your  answer to the question above was yes, is this a problem?, and if, how could it have been solved?
+
+		Yes it leaves a security gab, due to the fact that the token could be intercepted. 

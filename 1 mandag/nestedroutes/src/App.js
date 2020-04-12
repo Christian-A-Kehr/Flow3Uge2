@@ -17,20 +17,8 @@ import "./style2.css";
 // into multiple bundles because code-splitting a
 // React Router app is the same as code-splitting
 // any other React app.
-const info = [
-  {
-    id: "rendering",
-    title: "Rendering with React",
-    info: "Add some text here"
-  },
-  { id: "components", title: "components", info: "Add some text here" },
-  { id: "props-v-state", title: "Props v. State", info: "Add some text here" }
-];
 
 export default function NestingExample(props) {
-  {
-    Topics(props);
-  }
   return (
     <Router>
       <div>
@@ -44,15 +32,16 @@ export default function NestingExample(props) {
         </ul>
 
         <hr />
-
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route path="/topics">
-            <Topics />
-          </Route>
-        </Switch>
+        <div className="content">
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route path="/topics">
+              <Topics />
+            </Route>
+          </Switch>
+        </div>
       </div>
     </Router>
   );
@@ -71,11 +60,10 @@ function Topics(props) {
   // relative to the parent route, while the `url` lets
   // us build relative links.
   let { path, url } = useRouteMatch();
-  var info = props;
+
   return (
     <div>
       <h2>Topics</h2>
-      <p>Count is {info.length()}</p>
       <ul>
         <li>
           <Link to={`${url}/rendering`}>Rendering with React</Link>
